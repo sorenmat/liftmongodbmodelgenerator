@@ -1,0 +1,63 @@
+<lift:surround with="schantz" at="content" xmlns:instance="http://www.w3.org/1999/xhtml"
+               xmlns:entry="http://www.w3.org/1999/xhtml">
+   
+    <form class="Deploy?form=post">
+        <table width="95%">
+            <thead>
+                <tr>
+
+                    <th>Note</th>
+                    <th>Instance</th>
+                    <th>Version</th>
+                    <th></th> <!-- admin console link -->
+                    <th>MemberWeb Version</th>
+                    <th>Database Version</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="entry_table">
+
+            <lift:snippet type="TMC.myrender">
+                <instance:tableEntry>
+
+                    <tr>
+                        <td>
+                    <entry:user/>
+                    </td>
+
+                    <td>
+                    <entry:instancename/>
+                    </td>
+
+                    <td>
+                    <entry:runningversion/>
+                    </td>
+                    <td>
+                    <entry:adminConsoleLink/>
+                    </td>
+
+
+                    <td>
+                    <entry:RunningVersionMemberWeb/>
+                    </td>
+
+                    <td>
+                    <entry:runningdbversion/>
+                    </td>
+
+                    <td>
+                    <entry:deploy/>
+                    <entry:undeploy/>
+                    <entry:showtomcatlog/>
+                    </td>
+
+                    </tr>
+
+                </instance:tableEntry>
+            </lift:snippet>
+
+            </tbody>
+        </table>
+    </form>
+    <lift:msgs/>
+</lift:surround>

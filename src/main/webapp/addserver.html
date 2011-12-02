@@ -1,0 +1,34 @@
+<lift:surround with="schantz" at="content" xmlns:instance="http://www.w3.org/1999/xhtml"  xmlns:entry="http://www.w3.org/1999/xhtml">
+   
+    <form>
+        <table width="95%">
+            <thead>
+                <tr>
+                    <th>HostName</th>
+                    <th>PensionFund</th>
+                    <th></th>
+                </tr>
+            </thead>
+            
+            <tbody id="entry_table">
+		        <lift:snippet type="AddServer.render">
+                    <tr>
+                    <td>
+                    	<entry:hostname/>
+                    </td>
+
+                    <td>
+                    	<entry:pensionfund/>
+                    </td>
+                    	
+                    <td>
+                    	<entry:button/>
+                    </td>
+				</tr>                    
+            </lift:snippet>
+            </tbody>
+            
+        </table>
+    </form>
+    
+</lift:surround>

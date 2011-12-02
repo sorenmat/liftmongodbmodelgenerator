@@ -1,0 +1,19 @@
+<lift:surround with="schantz" at="content" xmlns:instance="http://www.w3.org/1999/xhtml"
+               xmlns:entry="http://www.w3.org/1999/xhtml">
+ 
+<lift:snippet type="Deploy.render">
+ 	<div><span class="deploy.label">Note:</span> <span><entry:user/></span></div>
+ 	<div><span class="deploy.label">Instance name:</span> <span><entry:instancename/></span></div>
+ 	<div><span class="deploy.label">AdvLifeWeb:</span> <span><entry:runningversion/></span></div>
+ 	<div><span class="deploy.label">Member Web:</span> <span><entry:RunningVersionMemberWeb/></span></div>
+ 	<div><span class="deploy.label">Database:</span> <span><entry:runningdbversion/></span></div>
+ 	<div><span><entry:deploy/></span></div>
+ 	<entry:comet/>
+ </lift:snippet>
+ <br/>
+
+ 
+ Please select the version you need to deploy. To keep a version already installed choose none as the version. Choosing the same version will re-deploy that version.
+    <lift:msgs/>
+
+</lift:surround>

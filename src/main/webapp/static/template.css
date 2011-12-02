@@ -1,0 +1,194 @@
+body {
+    margin:0;
+    text-align:center;
+    background: transparent url(../images/background.gif) repeat-y scroll center top;
+    font-family: verdana;
+    color: #656565;
+}
+p, td, body, input, textarea, select {
+    font-size: 10px;
+}
+#upper {
+    width:95%;
+    padding: 0;
+    margin:0px auto;
+    margin-top: 5px;
+}
+#jflanguageselection, .rawimages {
+    margin:0;
+    float: none;
+    text-align: right;
+}
+#logo {
+    position:absolute;
+}
+#topmenu {
+    height: 27px;
+    text-align: right;
+}
+#outer {
+    width:95%;
+    margin:0px auto;
+}
+#box {
+    background-color:white;
+    border:1px solid #FF8700;
+    margin-top: 5px;
+    padding-top:10px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:10px;
+    text-align:left;
+}
+#content {
+    margin-top: 15px;
+    width: 740px;
+}
+.sd_content a, #mainlevel-sub a {
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 10px;
+    background: transparent url(../images/link.gif) no-repeat scroll left;
+    font-family: verdana;
+    color: #656565;
+    text-transform: uppercase
+}
+#mainlevel {
+    width:100%;
+    text-align: right;
+    text-transform: uppercase;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+#mainlevel li {
+    display: inline;
+    padding: 0px 0px 0px 20px;
+    margin: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+#mainlevel span {
+    display: inline;
+    padding: 0px 0px 0px 20px;
+    margin: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+
+#mainlevel a {
+    font-size: 110%;
+}
+
+#mainlevel-sub {
+    width:100%;
+    text-align: right;
+    text-transform: uppercase;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 3px;
+    text-align: right;
+    height: 15px;
+}
+#mainlevel-sub li {
+    display: inline;
+    padding: 0px 0px 0px 20px;
+    margin: 0px;
+    list-style: none;
+}
+#mainlevel-sub a {
+    font-size: 90%;
+}
+#banner {
+    margin-top: 5px;
+}
+#right td {
+    vertical-align:top;
+}
+#right img {
+    margin-bottom: 10px;
+}
+#foot {
+    position: absolute;
+    font-size: 8px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-weight: bold;
+}
+a.mainlevel, a.mainlevel_active, a.mainlevel_current {
+    text-decoration: none;
+    color: #656565;
+}
+a.mainlevel_active, a#active_menu, a#active_menu-sub {
+    color:black;
+    font-weight: bolder;
+}
+h1 {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+h2 {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+h3 {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+p{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.references_table p {
+    margin: 0;
+}
+img {
+    border: 0;
+}
+li {
+    font-size: 10px;
+}
+td.createdate {
+    padding-bottom: 8px;
+}
+.contentheading {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.componentheading {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+/* OpenCms editor style overrides */
+.ocms_de_bt .ocms_de_edit {
+    background:transparent url(../images/ocms_de_edit_i.png) center right no-repeat;
+    height: 20px;
+    width: 20px;
+    display: block;
+    float: left;
+}
+.ocms_de_bt .ocms_de_delete {
+    background:transparent url(../images/ocms_de_delete_i.png) no-repeat scroll right center;
+    display:block;
+    float:left;
+    height:20px;
+    width:20px;
+}
+.ocms_de_bt .ocms_de_new {
+    background:transparent url(../images/ocms_de_new_i.png) no-repeat scroll right center;
+    display:block;
+    float:right;
+    height:20px;
+    width:20px;
+}
+.createdate {
+    color: #C5C5C5;
+}
+#deploy.label {
+	padding: 0px 0px 0px 120px;
+}

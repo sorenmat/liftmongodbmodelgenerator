@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="shortcut icon" type="image/ico" href="http://www.sprymedia.co.uk/media/images/favicon.ico">
+		
+		<title>DataTables example</title>
+		<style type="text/css" title="currentStyle">
+			@import "static/demo_page.css";
+			@import "static/demo_table.css";
+		</style>
+		<script type="text/javascript" language="javascript" src="scripts/jquery.js"></script>
+		<script type="text/javascript" language="javascript" src="scripts/jquery.dataTables.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(document).ready(function() {
+				$('.dataTable').dataTable();
+			} );
+		</script>
+	</head>
+	<body id="dt_example">
+		<div id="container">
+	
+			
+			<p style="font-weight: bold;">Trident based browsers</p>
+			<div id="demo_trident">
+<div id="allan_wrapper" class="dataTables_wrapper"><div class="dataTables_length" id="allan_length"><label>Show <select size="1" name="allan_length"><option selected="selected" value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="allan_filter" class="dataTables_filter"><label>Search: <input type="text"></label></div>
+
+<table class="display dataTable" id="allan" border="0" cellpadding="0" cellspacing="0">
+	<thead>
+		<tr><th style="width: 271px;" colspan="1" rowspan="1" class="sorting">Browser</th><th style="width: 130px;" colspan="1" rowspan="1" class="sorting_asc">Platform(s)</th><th style="width: 168px;" colspan="1" rowspan="1" class="sorting">Engine version</th><th style="width: 118px;" colspan="1" rowspan="1" class="sorting">CSS grade</th></tr>
+	</thead>
+	<tbody><tr class="gradeX odd">
+			<td class="">Internet
+				 Explorer 4.0</td>
+			<td class=" sorting_1">Win 95+</td>
+			<td class="center">4</td>
+			<td class="center">X</td>
+		</tr><tr class="gradeC even">
+			<td class="">Internet
+				 Explorer 5.0</td>
+			<td class=" sorting_1">Win 95+</td>
+			<td class="center">5</td>
+			<td class="center">C</td>
+		</tr><tr class="gradeA odd">
+			<td class="">Internet
+				 Explorer 5.5</td>
+			<td class=" sorting_1">Win 95+</td>
+			<td class="center">5.5</td>
+			<td class="center">A</td>
+		</tr><tr class="gradeA even">
+			<td class="">Internet
+				 Explorer 6</td>
+			<td class=" sorting_1">Win 98+</td>
+			<td class="center">6</td>
+			<td class="center">A</td>
+		</tr><tr class="gradeA odd">
+			<td class="">AOL browser (AOL desktop)</td>
+			<td class=" sorting_1">Win XP</td>
+			<td class="center">6</td>
+			<td class="center">A</td>
+		</tr><tr class="gradeA even">
+			<td class="">Internet Explorer 7</td>
+			<td class=" sorting_1">Win XP SP2+</td>
+			<td class="center">7</td>
+			<td class="center">A</td>
+		</tr></tbody></table><div id="allan_info" class="dataTables_info">Showing 1 to 6 of 6 entries</div><div id="allan_paginate" class="dataTables_paginate paging_two_button"><div id="allan_previous" title="Previous" class="paginate_disabled_previous"></div><div id="allan_next" title="Next" class="paginate_disabled_next"></div></div></div>
+			</div>
+			<div class="clear"></div>
+	
+	
+			<p style="clear:both; margin-top:4em; font-weight: bold;">Gecko based browsers</p>
+			<div id="demo_gecko">
+<div class="dataTables_wrapper"><div class="dataTables_length"><label>Show <select size="1"><option selected="selected" value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div class="dataTables_filter"><label>Search: <input type="text"></label></div><table class="display dataTable" border="0" cellpadding="0" cellspacing="0">
+	<thead>
+		<tr><th style="width: 191px;" colspan="1" rowspan="1" class="sorting_asc">Browser</th><th style="width: 238px;" colspan="1" rowspan="1" class="sorting">Platform(s)</th><th style="width: 152px;" colspan="1" rowspan="1" class="sorting">Engine version</th><th style="width: 107px;" colspan="1" rowspan="1" class="sorting">CSS grade</th></tr>
+	</thead>
+	<tbody><tr class="gradeA odd">
+			<td class=" sorting_1">Mozilla 1.3</td>
+			<td>Win 95+ / OSX.1+</td>
+			<td class="center">1.3</td>
+			<td class="center">A</td>
+		</tr><tr class="gradeA even">
+			<td class=" sorting_1">Mozilla 1.4</td>
+			<td>Win 95+ / OSX.1+</td>
+			<td class="center">1.4</td>
+			<td class="center">A</td>
+		</tr><tr class="gradeA odd">
+			<td class=" sorting_1">Mozilla 1.5</td>
+			<td>Win 95+ / OSX.1+</td>
+			<td class="center">1.5</td>
+			<td class="center">A</td>
+		</tr><tr class="gradeA even">
+			<td class=" sorting_1">Mozilla 1.6</td>
+			<td>Win 95+ / OSX.1+</td>
+			<td class="center">1.6</td>
+			<td class="center">A</td>
+		</tr><tr class="gradeA odd">
+			<td class=" sorting_1">Mozilla 1.7</td>
+			<td>Win 98+ / OSX.1+</td>
+			<td class="center">1.7</td>
+			<td class="center">A</td>
+		</tr><tr class="gradeA even">
+			<td class=" sorting_1">Mozilla 1.8</td>
+			<td>Win 98+ / OSX.1+</td>
+			<td class="center">1.8</td>
+			<td class="center">A</td>
+		</tr><tr class="gradeA odd">
+			<td class=" sorting_1">Netscape 7.2</td>
+			<td>Win 95+ / Mac OS 8.6-9.2</td>
+			<td class="center">1.7</td>
+			<td class="center">A</td>
+		</tr><tr class="gradeA even">
+			<td class=" sorting_1">Netscape Browser 8</td>
+			<td>Win 98SE+</td>
+			<td class="center">1.7</td>
+			<td class="center">A</td>
+		</tr><tr class="gradeA odd">
+			<td class=" sorting_1">Netscape Navigator 9</td>
+			<td>Win 98+ / OSX.2+</td>
+			<td class="center">1.8</td>
+			<td class="center">A</td>
+		</tr><tr class="gradeA even">
+			<td class=" sorting_1">Seamonkey 1.1</td>
+			<td>Win 98+ / OSX.2+</td>
+			<td class="center">1.8</td>
+			<td class="center">A</td>
+		</tr></tbody></table><div class="dataTables_info">Showing 11 to 20 of 20 entries</div><div class="dataTables_paginate paging_two_button"><div title="Previous" class="paginate_enabled_previous"></div><div title="Next" class="paginate_disabled_next"></div></div></div>
+			</div>
+			<div class="clear"></div>
+	
+	
+			<p style="clear:both; margin-top:4em; font-weight: bold;">WebKit based browsers (note no platform)</p>
+			<div id="demo_webkit">
+<div class="dataTables_wrapper"><div class="dataTables_length"><label>Show <select size="1"><option selected="selected" value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div class="dataTables_filter"><label>Search: <input type="text"></label></div><table class="display dataTable" border="0" cellpadding="0" cellspacing="0">
+	<thead>
+		<tr><th style="width: 291px;" colspan="1" rowspan="1" class="sorting_asc">Browser</th><th style="width: 248px;" colspan="1" rowspan="1" class="sorting">Engine version</th><th style="width: 177px;" colspan="1" rowspan="1" class="sorting">CSS grade</th></tr>
+	</thead>
+	<tbody><tr class="gradeA odd">
+			<td class=" sorting_1">iPod Touch / iPhone</td>
+			<td class="center">420.1</td>
+			<td class="center">A</td>
+		</tr><tr class="gradeA even">
+			<td class=" sorting_1">OmniWeb 5.5</td>
+			<td class="center">420</td>
+			<td class="center">A</td>
+		</tr><tr class="gradeA odd">
+			<td class=" sorting_1">S60</td>
+			<td class="center">413</td>
+			<td class="center">A</td>
+		</tr><tr class="gradeA even">
+			<td class=" sorting_1">Safari 1.2</td>
+			<td class="center">125.5</td>
+			<td class="center">A</td>
+		</tr><tr class="gradeA odd">
+			<td class=" sorting_1">Safari 1.3</td>
+			<td class="center">312.8</td>
+			<td class="center">A</td>
+		</tr><tr class="gradeA even">
+			<td class=" sorting_1">Safari 2.0</td>
+			<td class="center">419.3</td>
+			<td class="center">A</td>
+		</tr><tr class="gradeA odd">
+			<td class=" sorting_1">Safari 3.0</td>
+			<td class="center">522.1</td>
+			<td class="center">A</td>
+		</tr></tbody></table><div class="dataTables_info">Showing 1 to 7 of 7 entries</div><div class="dataTables_paginate paging_two_button"><div title="Previous" class="paginate_disabled_previous"></div><div title="Next" class="paginate_disabled_next"></div></div></div>
+			</div>
+			
+		</div>
+	
+</body></html>

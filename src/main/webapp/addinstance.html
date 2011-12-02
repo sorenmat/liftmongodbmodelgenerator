@@ -1,0 +1,14 @@
+<lift:surround with="schantz" at="content">
+    <div>
+        Adding new instance
+    </div>
+
+    <form class="lift:form.ajax">
+        <div class="lift:AddServerInstance">
+            Name: <input name="name"/><br/>
+            Age:<lift:msg id="age"></lift:msg>
+            <input name="age" id="the_age" value="0"/><br/>
+            <input type="submit" value="Submit"/>
+        </div>
+    </form>
+</lift:surround>

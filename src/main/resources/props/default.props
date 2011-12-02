@@ -1,0 +1,46 @@
+db.user=sa
+db.password=sa
+databasedir=/Volumes/TMC/
+builddir=/Volumes/TMC/
+
+dbHostname=tmcdb.schantz.com
+dbUser=sa
+dbPassword=Mel0di
+
+sshuser = schantz
+sshpassword = Mel0di
+
+
+# paths on the database server..
+dbRestorePath=d:\\tmc
+dbDumpDir=\\\\storage.schantz.com\\TMC
+
+
+owners=Joep,Dip,Isp,BP,Schantz
+
+#
+# User section
+#
+admin.password = 12345q
+admin.roles = admin, tmc
+admin.pensionfund = all
+
+schantz.password = 12345q
+schantz.roles = tmc
+schantz.pensionfund = all
+
+joep.password = 12345
+joep.roles = tmc
+joep.pesionfund = Joep
+
+bp.password = 12345
+bp.roles = tmc
+bp.pesionfund = BP
+
+dip.password = 12345
+dip.roles = tmc
+dip.pesionfund = Dip
+
+isp.password = 12345
+isp.roles = tmc
+ips.pesionfund = Isp

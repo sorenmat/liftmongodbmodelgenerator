@@ -1,0 +1,47 @@
+<lift:surround with="schantz" at="content" xmlns:instance="http://www.w3.org/1999/xhtml" xmlns:entry="http://www.w3.org/1999/xhtml">
+    <a href="/showlog">Show Log</a>
+    <hr/>
+   
+   <lift:Admin.admin form="POST">
+      <fieldset>
+         <legend>Server List</legend>
+
+         <div>
+            <label for="owner">Owner:</label>
+            <entry:owner/>
+         </div>
+
+
+         <div>
+            <label for="user">User</label>
+            <entry:user/>
+         </div>
+
+         <div>
+            <label for="instancename">Instance Name:</label>
+            <entry:instancename/>
+         </div>
+
+         <div>
+            <label for="runningversion">Running Version:</label>
+            <entry:runningversion/>
+         </div>
+
+         <div>
+            <label for="runningdbversion">Running db version:</label>
+            <entry:runningdbversion/>
+         </div>
+
+         <div id="btn">
+            <entry:submit/>
+         </div>
+         <div id="btn">
+            <entry:delete/>
+         </div>
+         
+      </fieldset>
+   </lift:Admin.admin>
+
+
+   <lift:msgs/>
+</lift:surround>

@@ -1,0 +1,20 @@
+<lift:surround with="schantz" at="content" xmlns:instance="http://www.w3.org/1999/xhtml" xmlns:entry="http://www.w3.org/1999/xhtml">
+ 
+<lift:snippet type="SimpleDeploy.render">
+<div>
+<table>
+	<tr>
+		<td>Note</td><td><wizard:note/></td>
+	</tr>
+
+	<tr>
+		<td>Version</td><td><wizard:version/></td>
+	</tr>
+	<br/>
+	<wizard:cancel/><wizard:next/>
+</table>
+</div>
+<wizard:comet/>
+</lift:snippet>
+</lift:surround>
+

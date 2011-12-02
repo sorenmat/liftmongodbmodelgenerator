@@ -1,0 +1,21 @@
+<lift:surround with="schantz" at="content">
+
+  <h2>Server status</h2>
+
+  <lift:comet type="FlotGraph">
+     <flot:graph>Loading...</flot:graph>
+  </lift:comet>
+
+  <br />
+  <div id="cpu_avg" style="width:600px;height:300px"></div>
+
+
+	<lift:comet type="MemFlotGraph">
+		<flot:memgraph>Loading...</flot:memgraph>
+	</lift:comet>
+
+  <br />
+  <div id="mem_avg" style="width:600px;height:300px"></div>
+
+</lift:surround>
+
