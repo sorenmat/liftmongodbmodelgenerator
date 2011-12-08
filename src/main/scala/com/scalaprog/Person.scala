@@ -12,8 +12,6 @@ def meta = Person
 
 	object email extends StringField(this,15)
 
-	//relation: com.scalaprog.Address
-
-}
+object address extends ObjectIdRefField(this,Address)}
 
 object Person extends Person with MongoMetaRecord[Person]
